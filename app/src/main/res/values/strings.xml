@@ -1,0 +1,13 @@
+<resources>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="Login">Log In</string>
+    <string name="Login2">Login</string>
+    <string name="app_name">RatingsApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="ratings">Ratings</string>
+    <string name="rating2">View all rated Movies.</string>
+    <string name="review">Movie Review</string>
+    <string name="moviename">Movie name</string>
+    <string name="rating">3.0</string>
+</resources>

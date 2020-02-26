@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="horizontal"
+              android:background="#fff"
+              android:layout_marginBottom="5dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:clipToPadding="false">
+    <View android:layout_width="3dp"
+          android:layout_height="match_parent"
+          android:layout_marginEnd="10dp"
+          android:background="@color/colorPrimaryDark"/>
+
+    <android.support.v7.widget.CardView
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            app:cardBackgroundColor="#fff"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp">
+        <TextView
+                android:id="@+id/user_rating"
+                android:fontFamily="@font/abel"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:text="@string/rating"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+    </android.support.v7.widget.CardView>
+    <LinearLayout
+            android:layout_marginTop="3dp"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:paddingTop="5dp">
+        <TextView
+                android:id="@+id/movie_name"
+                android:fontFamily="@font/abel"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:text="@string/moviename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:textStyle="bold"/>
+        <TextView
+                android:id="@+id/user_review"
+                android:fontFamily="@font/abel"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:text="@string/review"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
